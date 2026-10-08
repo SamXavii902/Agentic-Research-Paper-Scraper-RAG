@@ -1,0 +1,37 @@
+# Environment & API keys (Never commit secrets!)
+.env
+*.env
+.env.local
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local vector store & DB caches
+.langchain_cache.db
+*.sqlite3
+data/chroma_db/
+
+# Scratch & temporary logs
+test_out.txt
+.freebuff/
+*.log
+
+# Scratch migration scripts
+swap_*.py
+update_groq_model.py
+fix_apis.py
+list_models.py
+test_models.py
+
+# OS metadata
+.DS_Store
+Thumbs.db
